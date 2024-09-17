@@ -4,21 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
       <div class="titles">
-        <h1 class="title">TO DO LIST</h1>
-        <h3 class="subtitle">List your priorities and get them done!</h3>
+        <h1 class="title">TO DO LIST 📜</h1>
+        <h2 class="subtitle">List your priorities and get them done!</h2>
       </div>
 
-      <div class="input">
-        <input type="text" id="input-field" placeholder="Write a task..." />
-        <button id="btn-star">⭐</button>
-        <ul id="ordered-list" class="list"></ul>
+      <div class="ivory-container">
+        <div class="container-of-input">
+          <div class="input">
+            <input type="text" id="input-field" placeholder="Write a task..." />
+            <button id="btn-star">⭐</button>
+            <ul id="ordered-list" class="list"></ul>
+          </div>
+        </div>
       </div>
     </div>
+
     <!-- <button id="minus">-</button>
     <button id="btn">0</button>
     <button id="plus">+</button> -->
