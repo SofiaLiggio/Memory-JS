@@ -35,7 +35,8 @@ button {
 }
 
 .list {
-  list-style: disc;
+  list-style: none;
+  padding-right: 80px;
 }
 
 .container-of-input {

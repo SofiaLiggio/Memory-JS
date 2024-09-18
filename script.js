@@ -17,7 +17,7 @@ const tasks = [];
 
 btnEnter.addEventListener("click", function () {
   if (inputField.value === "") {
-    alert("Any things to do for today! 😜");
+    alert("Add a task! 😜");
   } else {
     const task = inputField.value;
     tasks.push(task);
